@@ -1,0 +1,14 @@
+{
+  "name": "stackread",
+  "version": "1.0.0",
+  "description": "Zero-dependency Node.js CLI that reports a JS/TS project's real dependency stack: layers, unused direct deps, duplicates, licenses",
+  "main": "src/cli.js",
+  "bin": { "stackread": "src/cli.js" },
+  "scripts": {
+    "test": "node --test",
+    "demo": "node scripts/demo.js"
+  },
+  "engines": { "node": ">=18" },
+  "license": "MIT",
+  "keywords": ["dependencies", "nodejs", "audit", "unused-dependencies", "static-analysis", "cli"]
+}
